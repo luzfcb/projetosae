@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath="$PWD/projetosae" config.wsgi:application
